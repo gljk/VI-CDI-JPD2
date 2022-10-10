@@ -1,0 +1,21 @@
+.well {
+padding: 5px !important;
+}
+.leaflet-control-attribution {
+  display:none !important;
+}
+.leaflet-container{
+      background: #fff !important;
+}
+#penevmap {height: calc(100vh - 80px) !important;}
+#penevmap > div.leaflet-control-container > div.leaflet-top.leaflet-right > div > div:nth-child(5){
+  float: left !important;
+}
+.slider-animate-container {
+    text-align: left !important;
+    margin-top: 0px !important;
+}
+.slider-animate-button {
+    opacity: .8;
+    font-size: 30px;
+}
